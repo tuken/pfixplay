@@ -6,6 +6,8 @@ import play.api._
 import play.api.mvc._
 import slick.driver.JdbcProfile
 import models.Tables._
+import scala.concurrent.ExecutionContext.Implicits.global
+import slick.driver.MySQLDriver.api._
 
 /**
   * Created by t.ikawa on 2016/06/02.
